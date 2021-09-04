@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	makefile	/^CC=gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS=-I$(IDIR)$/;"	m
+CHECK_BIT	eventManager.c	/^int CHECK_BIT(int n,int e) $/;"	f
+DEPS	makefile	/^DEPS = $(patsubst %,$(IDIR)\/%,$(_DEPS))$/;"	m
+IDIR	makefile	/^IDIR =..\/include$/;"	m
+LDIR	makefile	/^LDIR =..\/lib$/;"	m
+LIBS	makefile	/^LIBS=-lm$/;"	m
+Node	eventManager.c	/^struct Node$/;"	s	file:
+Node	module.c	/^struct Node$/;"	s	file:
+OBJ	makefile	/^OBJ = $(patsubst %,$(ODIR)\/%,$(_OBJ))$/;"	m
+ODIR	makefile	/^ODIR=..\/bin$/;"	m
+SET_BIT	module.c	4;"	d	file:
+_DEPS	makefile	/^_DEPS = func.h$/;"	m
+_OBJ	makefile	/^_OBJ = init.exe eventManager.exe module.exe$/;"	m
+bit_map	eventManager.c	/^	int bit_map;$/;"	m	struct:Node	file:
+bit_map	module.c	/^	int bit_map;$/;"	m	struct:Node	file:
+cbfp	eventManager.c	/^	void (*cbfp)(int);$/;"	m	struct:Node	file:
+cbfp	module.c	/^	void (*cbfp)(int);$/;"	m	struct:Node	file:
+head_node	module.c	/^struct Node *head_node;$/;"	v	typeref:struct:Node
+interest_mod	eventManager.c	/^void interest_mod(int e)$/;"	f
+main	init.c	/^int main()$/;"	f
+mod1	module.c	/^void mod1(int e)$/;"	f
+mod10	module.c	/^void mod10(int e)$/;"	f
+mod2	module.c	/^void mod2(int e)$/;"	f
+mod3	module.c	/^void mod3(int e)$/;"	f
+mod4	module.c	/^void mod4(int e)$/;"	f
+mod5	module.c	/^void mod5(int e)$/;"	f
+mod6	module.c	/^void mod6(int e)$/;"	f
+mod7	module.c	/^void mod7(int e)$/;"	f
+mod8	module.c	/^void mod8(int e)$/;"	f
+mod9	module.c	/^void mod9(int e)$/;"	f
+mod_no	eventManager.c	/^	int mod_no;$/;"	m	struct:Node	file:
+mod_no	module.c	/^	int mod_no;$/;"	m	struct:Node	file:
+module_func	module.c	/^void module_func(int m,int e, void (*func[10])() )$/;"	f
+n1	module.c	/^}*n1;$/;"	v	typeref:struct:Node
+next	eventManager.c	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+next	module.c	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
