@@ -43,11 +43,13 @@ void module_func(int tot_mod, int tot_eve, void (*func[10])() )
 
 		n1->next = NULL;
 
-		if(head_node==NULL){
+		if(head_node==NULL)
+		{
 			head_node = n1;
 		}
 
-		else{
+		else
+		{
 			n1->next = head_node;
 			head_node = n1;
 		}
